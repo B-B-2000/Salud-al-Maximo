@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Paquetes Nutricionales</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header, section, footer { padding: 20px; }
+        header { background-color: #0070ba; color: white; text-align: center; }
+        .paquete { border: 1px solid #ccc; padding: 15px; margin: 10px; display: inline-block; width: 250px; vertical-align: top; }
+        .boton-pago, .boton-whatsapp {
+            display: inline-block;
+            background-color: #0070ba;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .boton-pago:hover, .boton-whatsapp:hover {
+            background-color: #005c99;
+        }
+        iframe { width: 100%; height: 300px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenido a Tu Centro Nutricional</h1>
+    <p>Transforma tu salud con nuestros paquetes personalizados</p>
+</header>
+
+<section>
+    <h2>Detalles de Envío</h2>
+    <p>Realizamos envíos a: México, Colombia, Chile, Argentina, Perú, Estados Unidos, España.</p>
+    <p>El tiempo estimado de entrega es de 5 a 10 días hábiles, dependiendo del destino.</p>
+</section>
+
+<section>
+    <h2>¿Tienes preguntas?</h2>
+    <a class="boton-whatsapp" href="https://wa.me/TU_NUMERO" target="_blank">¡Chatea con nosotros en WhatsApp!</a>
+</section>
+
+<section>
+    <h2>Videos sobre los tratamientos</h2>
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID1" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID2" frameborder="0" allowfullscreen></iframe>
+</section>
+
+<section>
+    <h2>Elige tu paquete</h2>
+
+    <div class="paquete">
+        <h3>Paquete Básico</h3>
+        <p>Plan personalizado + envío</p>
+        <p><strong>$50 USD</strong></p>
+        <a class="boton-pago" href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=TU_CORREO_PAYPAL&item_name=Paquete+Basico&amount=50&currency_code=USD" target="_blank">Pagar</a>
+    </div>
+
+    <div class="paquete">
+        <h3>Paquete Premium</h3>
+        <p>Plan + seguimiento semanal + envío</p>
+        <p><strong>$100 USD</strong></p>
+        <a class="boton-pago" href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=TU_CORREO_PAYPAL&item_name=Paquete+Premium&amount=100&currency_code=USD" target="_blank">Pagar</a>
+    </div>
+
+    <div class="paquete">
+        <h3>Paquete VIP</h3>
+        <p>Plan + asesoría personalizada + envío</p>
+        <p><strong>$200 USD</strong></p>
+        <a class="boton-pago" href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=TU_CORREO_PAYPAL&item_name=Paquete+VIP&amount=200&currency_code=USD" target="_blank">Pagar</a>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Tu Centro Nutricional. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
